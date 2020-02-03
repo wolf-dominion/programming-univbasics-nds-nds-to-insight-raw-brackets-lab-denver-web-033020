@@ -28,8 +28,9 @@ def directors_totals(nds)
     key = nds[row][:name]
     while col < nds[row].length do
       puts nds[row][:movies][col][:worldwide_gross]
-      
+      col += 1
     end
+    row += 1
   end
 
  # value = 
