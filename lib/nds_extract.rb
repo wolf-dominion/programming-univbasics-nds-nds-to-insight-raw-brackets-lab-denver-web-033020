@@ -29,6 +29,9 @@ def directors_totals(nds)
     key = nds[row][:name]
     while col < nds[row].length do
       nds[row][col][]
+      
+    end
+  end
 
   value = 
   
