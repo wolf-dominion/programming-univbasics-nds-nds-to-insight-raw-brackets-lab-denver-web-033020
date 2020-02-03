@@ -20,7 +20,6 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   nil
-  pp nds
   hash = {}
   
   row = 0
@@ -28,13 +27,13 @@ def directors_totals(nds)
     col = 0
     key = nds[row][:name]
     while col < nds[row].length do
-      nds[row][col][]
+      puts nds[row][:movies][col][:worldwide_gross]
       
     end
   end
 
-  value = 
+ # value = 
   
-  hash[key] => value 
+ # hash[key] => value 
   
 end
