@@ -31,7 +31,7 @@ def directors_totals(nds)
       col += 1
     end
     row += 1
-     hash[key] => value 
+#     hash[key] => value 
   end
   hash
 end
