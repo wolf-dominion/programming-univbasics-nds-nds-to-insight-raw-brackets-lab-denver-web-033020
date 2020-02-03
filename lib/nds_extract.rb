@@ -27,14 +27,12 @@ def directors_totals(nds)
     col = 0
     key = nds[row][:name]
     while col < nds[row].length do
-      key = nds[row][:movies][col][:worldwide_gross]
+      value = nds[row][:movies][col][:worldwide_gross]
       col += 1
     end
     row += 1
   end
-
- # value = 
   
- # hash[key] => value 
+ hash[key] => value 
   
 end
