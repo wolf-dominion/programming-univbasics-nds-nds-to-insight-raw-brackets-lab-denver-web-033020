@@ -34,7 +34,7 @@ def directors_totals(nds)
     end
     row += 1
     puts key
-    puts value
+    puts value9
     hash[key] = value
   end
   pp hash
