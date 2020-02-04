@@ -24,6 +24,7 @@ def directors_totals(nds)
   nil
   hash = {}
   value = 0
+  
   row = 0
   while row < nds.length do
     col = 0
