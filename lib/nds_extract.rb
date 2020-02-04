@@ -23,10 +23,10 @@ def directors_totals(nds)
  
   nil
   hash = {}
-  value = 0
   
   row = 0
   while row < nds.length do
+    value = 0
     col = 0
     key = nds[row][:name]
     while col < nds[row].length do
