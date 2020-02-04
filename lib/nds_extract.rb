@@ -36,6 +36,7 @@ def directors_totals(nds)
     row += 1
     puts key
     puts value
+    
   end
   hash
 end
